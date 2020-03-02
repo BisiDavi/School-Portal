@@ -1,0 +1,254 @@
+.col-md-4 img{
+	z-index: 1;
+}
+
+.col-md-4 .content{
+	z-index: 4;
+}
+
+.content p{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+.section4{
+	display: grid;
+	grid-template-rows: auto;
+
+}
+
+.content h3{
+	font-family: Times New Roman;
+	font-size: 36px;
+	line-height: 41px;
+	color: #fff;
+}
+
+
+.upcoming-events{
+	text-align: left;
+	font-family: Times New Roman;
+	line-height: 40px;
+}
+
+.coming-events .readmore{
+	font-size: 10px;
+	margin-top: 1%;
+}
+
+.coming-events .blog-header{
+	width: 90%;
+	margin-left: 4%;
+}
+
+.community{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.community img{
+	width: 100%;
+	height: 100%;
+}
+
+.img-text{
+	font-family: Times New Roman;
+	font-size: 48px;
+	line-height: 55px;
+	z-index: 1;
+	color: #fff;
+	position: absolute;
+	z-index: 100;
+	margin: 0 auto;
+	left: 0;
+	right:0;
+	top: 40%;
+	text-align: center;
+	width: 60%;
+}
+
+
+.event-text h3{
+	font-family: Times New Roman;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.event-text hr{
+	width: 30%;
+	background-color: blue;
+}
+
+.event-text small{
+font-family: Times New Roman;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+}
+
+.event img{
+	margin: 0;
+	padding: 0;
+}
+
+.mid-section{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.mid-section .content{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 25%;
+}
+
+.philosophy{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.philosophy .p-content{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left:38%;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.letter p{
+	margin-left: 20%;
+}
+
+.letter h6{
+	font-family: Arial;
+	margin-left: 20%;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+.letter h4{
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 0;
+	line-height: 16px;
+	color: #32AFFF;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+.letter p{	
+	font-family: Times New Roman;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.46);
+	width: 70%;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+.readmore a{
+	color:#A6FB1C;
+	font-family: Times New Roman;	
+	font-weight: bold;
+}
+.readmore a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.blog{
+	margin-top: 40%;
+}
+
+.blog h3{
+	font-family: Times New Roman;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 0.7;
+	left: 10%;
+}
+
+.blog-header{
+	width: 70%;
+	border: 1px solid #32AFFF;
+	background-color: blue;
+	margin-left: 0%;
+}
+
+.blog p{
+	font-family: Times New Roman;
+	font-size: 14px;
+	line-height: 16px;
+	width: 70%;
+	color: rgba(0, 0, 0, 0.46);
+	font-weight: bold;
+}
+
+.tour-heading{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #32AFFF;
+	text-align: left;
+	
+}
+
+.tour-content{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: capitalize;
+	color: #4A4A4A;
+	margin-left: 0px;
+	width: 65%;
+	text-align: left;
+}
+
+.tour h6{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: capitalize;
+	color: #32AFFF;
+	text-align: left;
+}
+
+.event-blog h4{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.event-blog .more a{
+	font-family: Times New Roman;
+	font-size: 10px;
+	color:  #A6FB1C;
+	line-height: 11px;
+}
+
+.event-blog .more a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.date{
+	color: #32AFFF;
+}
