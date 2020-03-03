@@ -1,6 +1,12 @@
 html, body{
 	background-color:#E5E5E5;
 }
+/**
+nav ul li.btn{
+	background-color:#455E1D;
+}
+*/
+
 footer ul {
 	list-style: none;
 }
@@ -9,10 +15,12 @@ footer li{
 	text-decoration: none;
 }
 
+
 footer h3 a{
-	color: blue;
+	color: #32AFFF;
 	font-size: 15px;
 	font-weight: bold;
+	margin-left: 0;
 }
 
 footer a{
@@ -28,36 +36,39 @@ footer a:hover{
 	color: red;
 }
 
-.copyright{
+footer .blog-header{	
+	margin-left: 2%;
+	border: 1px solid gray;
+}
+
+.blog-events a{
+	color: #32AFFF;
 	font-family: Times New Roman;
-	font-size: 11px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.copyright p{
+	font-family: Times New Roman;
+	font-size: 15px;
+	font-weight: bold;
 	line-height: 13px;
 	text-align: left;
+	margin-left: 15%;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+.left a img{
+	max-width: 20%;
+	float: right;
+	padding: 0;
+	margin:0;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.left col-2{
+	padding: 0;
+	margin:0;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+#navbarNav .schedule{
+    background-color: green;
 }

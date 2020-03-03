@@ -13,9 +13,9 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/check-grades', 'GradesController@index');
+Route::get('/grades', 'GradesController@index');
 
-Route::get('/school', 'SchoolController@index');
+Route::get('/gallery', 'GalleryController@index');
 
 Route::get('/admission', 'AdmissionController@index');
 

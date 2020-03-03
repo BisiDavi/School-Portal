@@ -11,9 +11,9 @@
 
 
 @section('embedded-video')
-<div class="v-header container mb-2">
+<div class="v-header container-fluid mb-2">
 	<div class="fullscreen-video-wrap">
-		<video src="{{asset('video/vid-2.mp4')}}" autoplay="true" loop="true"></video>
+		<video src="{{asset('video/vid-2.mp4')}}" autoplay="true" loop="true" controls="true"></video>
 	</div>
 	<div class="header-overlay"></div>
 	<div class="header-content">
@@ -28,8 +28,8 @@
 
 
 @section('grid-image-1')
-	<div class="container my-auto mb-5">
-		<div class="row">
+	<div class="container-fluid my-auto mb-5">
+		<div class="row padding">
 		<div class="mid-section col-md-4">
 		<img src="{{asset('img/img-3.png')}}" alt="image 3" />
 			<div class="content">
@@ -56,7 +56,7 @@
 @endsection
 
 @section('tour')
-	<div class="container mt-5">
+	<div class="container mb-5 mt-5">
 		<div class="row">
 			<div class="col-md-6">
 				<img src="{{ asset('img/school-img.png')}}" alt="school building" >
@@ -74,8 +74,8 @@
 @endsection
 
 @section('philosophy')
-<div class="section4">
-	<div class="card shadow p-3 mb-5 bg-white rounded letter mt-5 mb-2">
+<div class="row">
+	<div class=" col-4 card shadow p-3 mb-5 bg-white rounded letter mt-5 mb-2">
 		<div class="card-body">
 			<h4>LETTER FROM HEAD OF SCHOOL</h4>
 			<h6>Dr. mrs E.C. UZU</h6>
@@ -90,7 +90,7 @@
 			<h6 class="readmore"><a href="#">Read More</a></h6>
 		</div>
 	</div>
-	<div class="philosophy">
+	<div class="col-8 mt-2 philosophy">
 		<img src="{{ asset('img/philosophy.png')}}" alt="philosophy" >
 		<div class="p-content">
 			<p>Our Educational Philosophy</p>
@@ -124,7 +124,7 @@
 @endsection
 
 @section('blog')
-	<div class="row mt-2 mb-2 pl-0 pr-0 ml-0 mr-0">
+	<div class="row school-blog mt-2 mb-2 ml-0 mr-0">
 		<div class="col-6">
 			<img src="{{ asset('img/chess.png')}}">
 		</div>
@@ -220,7 +220,7 @@
 		<img src="{{ asset('img/community.png')}}">
 		<div class="img-text">
 		<p>Join the Community</p>
-		<button type="button" class="btn btn-outline-light ">Inquire</button>
+		<button type="button" class="btn btn-outline-light inquire">Inquire</button>
 		</div>		
 	</div>
 @endsection

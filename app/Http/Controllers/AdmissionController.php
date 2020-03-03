@@ -13,7 +13,7 @@ class AdmissionController extends Controller
      */
     public function index()
     {
-        view('admission');
+      return  view('admission');
     }
 
     /**

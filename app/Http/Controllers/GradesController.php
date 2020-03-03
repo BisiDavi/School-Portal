@@ -13,7 +13,7 @@ class GradesController extends Controller
      */
     public function index()
     {
-        view('grades');
+       return view('grades');
     }
 
     /**

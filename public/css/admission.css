@@ -1,0 +1,62 @@
+.admission-guideline{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.admission-guideline h1{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.admission-guideline p{
+	text-align: center;	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+.admission-guideline h3{
+	margin-left: 5%;
+}
+
+.text p{
+	text-align: left;
+	margin-left: 7%;
+}
+
+.admission-guideline .text{	
+	max-width: 70%;
+}
+
+.card h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.07em;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 500px){
+	.text p{
+		text-align: center;
+	}
+}
