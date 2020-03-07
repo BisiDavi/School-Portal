@@ -1,11 +1,3 @@
-.col-md-4 img{
-	z-index: 1;
-}
-
-.col-md-4 .content{
-	z-index: 4;
-}
-
 .content p{
 	font-family: Arial;
 	font-size: 12px;
@@ -53,7 +45,9 @@
 	width: 100%;
 	height: 100%;
 }
-
+.community p{    
+    text-align: center;
+}
 
 .img-text{
 	font-family: Times New Roman;
@@ -97,27 +91,104 @@ text-align: center;
 }
 
 .mid-section{
-	position: relative;
-	text-align: center;
-	color: white;
+    position:relative;
+    margin:0;
+    padding:0;
+    color:white;
 }
 
 .mid-section .content{
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	left: 25%;
+    position: absolute;
+    z-index: 4;
+    top:40%;
+    text-align:center;
+    width: 100%;
+}
+
+.mid-section .content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-left:-2%;
+    font-size: 12px;
+    line-height: 14px;
+    text-align:center;
+}
+.mid-section .content h2{
+    text-align:center;
+    font-family: Times New Roman;
+    font-size: 36px;
+    line-height: 41px;
 }
 
 .mid-section img{
     padding:0%;
     margin:0%;
+    width:100%;
+    z-index: 1;
+}
+
+.event-blog{
+    justify-content:center;
+}
+.event-blog .card{
+    margin:2%;
+}
+
+.event-blog h4{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.event-blog .more a{
+	font-family: Times New Roman;
+	font-size: 10px;
+	color:  #A6FB1C;
+	line-height: 11px;
+}
+
+.event-blog .more a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+@media only screen and (max-width:400px){
+    .mid-section{
+        display:block;
+    }
+    .mid-section img{
+        width:100%;
+    }
+    .philosophy img{
+    width:100%;
+    }
+    .event img{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    .school-blog img{
+        width:100%;
+    }
+    .event-blog{
+        justify-content:center;
+    }
+    .event-blog .card{
+        width:80%;
+    }
 }
 
 .philosophy{
 	position: relative;
 	text-align: center;
 	color: white;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:0px;
 }
 
 .philosophy .p-content{
@@ -237,23 +308,7 @@ text-align: center;
 	text-align: left;
 }
 
-.event-blog h4{
-	font-family: Arial;
-	font-weight: bold;
-	font-size: 15px;
-}
 
-.event-blog .more a{
-	font-family: Times New Roman;
-	font-size: 10px;
-	color:  #A6FB1C;
-	line-height: 11px;
-}
-
-.event-blog .more a:hover{
-	text-decoration: none;
-	color: red;
-}
 
 .date{
 	color: #32AFFF;

@@ -37,10 +37,10 @@
 		        <a class="nav-link" href="/admission">Admission</a>
 		      </li>
 		      <li class="nav-item ml-3 mr-5">
-		        <a class="nav-link" href="/blog">Blog</a>
+		        <a class="nav-link" href="#blog">Blog</a>
 		      </li>
 		      <li class="nav-item ml-3 schedule mr-0">		        
-		        <a href="/schedule-now" class="btn btn-secondary btn-lg active" role="button">Schedule Now</a>
+		        <a href="/schedule-now" class="btn btn-success btn-lg active" role="button">Schedule Now</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -61,7 +61,7 @@
 <footer>
 	<div class="row">
 		<div class="col-md-4">
-		<div class="icon ml-5">
+		<div class="icon row ml-5">
 			<div class="col-2 mt-3 mb-3">
 				<a href="#"><img src="{{asset('img/placeholder.svg')}}"></a>
 			</div>
@@ -75,15 +75,16 @@
 		<hr class="blog-header ml-5" />
 
 		<div class="row blog-events ml-5">				
-			<div class="col-md-2">	
+			<div class="col-md-2 col-sm-2">	
 				<h5><a href="#blog">Blog</a></h5>
 			</div>
-			<div class="col-md-2">	
+			<div class="col-md-2 col-sm-2">	
 				<h5><a href="#Events">Events</a></h5>
 			</div>
 		</div>
 		</div>
-		<div class="col-md-2 col-sm-3 col-xs-12">
+        
+		<div class="col-md-2 col-sm-3 col-xs-6">
 			<h3 class="ml-5"><a href="#">SCHOOL</a></h3>
 			<ul>
 				<li><a href="#">Admissions</a></li>
@@ -96,7 +97,7 @@
 				<li><a href="#">Camps</a></li>
 			</ul>
 		</div>			
-		<div class="col-md-2 col-sm-3 col-xs-12">
+		<div class="col-md-2 col-sm-3 col-xs-6">
 			<h3><a href="#">LOWER SCHOOL</a></h3>
 			<ul>
 				<li><a href="#">Nursery</a></li>
@@ -107,8 +108,9 @@
 				<li><a href="#">Fourth</a></li>
 				<li><a href="#">Fifth</a></li>
 			</ul>
-		</div>			
-		<div class="col-md-2 col-sm-3 col-xs-12">
+		</div>
+       
+		<div class="col-md-2 col-sm-3 col-xs-6">
 			<h3><a href="#">MIDDLE SCHOOL</a></h3>
 			<ul>
 				<li><a href="#">Sixth</a></li>
@@ -116,7 +118,7 @@
 				<li><a href="#">Eighth</a></li>
 			</ul>
 		</div>
-		<div class="col-md-2 col-sm-3 col-xs-12">
+		<div class="col-md-2 col-sm-3 col-xs-6">
 			<h3><a href="#">UPPER SCHOOL</a></h3>
 			<ul>
 				<li><a href="#">Ninth</a></li>
@@ -127,24 +129,24 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 copyright">
-			<p>Copyright franej Education All rights reserved</p>
+		<div class="col-md-4 col-sm-8 col-xs-12 copyright">
+			<p>Copyright Franej Education All rights reserved</p>
 		</div>
-		<div class="col-md-8">
-		<div class="row left">
-			<div class="col-2">
-			<a href="#"><img src="{{asset('img/SVG/Circle Color/Facebook.svg')}}"></a>
-			</div>
-			<div class="col-2">
-			<a href="#"><img src="{{asset('img/SVG/Circle Color/Twitter.svg')}}"></a>	
-			</div>
-			<div class="col-2">
-			<a href="#"><img src="{{asset('img/SVG/Circle Color/Instagram.svg')}}"></a>
-			</div>
-			<div class="col-2">
-			<a href="#"><img src="{{asset('img/SVG/Circle Color/Youtube.svg')}}"></a>
-			</div>
-		</div>
+		<div class="col-md-8 col-sm-8 col-xs-12 ml-5 left">
+		    <div class="row mb-5 mt-2">
+			    <div class="col-2">
+			    <a href="#"><img src="{{asset('img/SVG/Circle Color/Facebook.svg')}}"></a>
+			    </div>
+			    <div class="col-2">
+			    <a href="#"><img src="{{asset('img/SVG/Circle Color/Twitter.svg')}}"></a>	
+			    </div>
+			    <div class="col-2">
+			    <a href="#"><img src="{{asset('img/SVG/Circle Color/Instagram.svg')}}"></a>
+			    </div>
+			    <div class="col-2">
+			    <a href="#"><img src="{{asset('img/SVG/Circle Color/Youtube.svg')}}"></a>
+			    </div>
+		    </div>
 		</div>
 	</div>
 </footer>

@@ -11,13 +11,13 @@
 
 
 @section('embedded-video')
-<div class="v-header container-fluid mb-2">
+<div class="v-header container-fluid">
 	<div class="fullscreen-video-wrap">
 		<video src="{{asset('video/vid-2.mp4')}}" autoplay="true" loop="true" controls="true"></video>
 	</div>
 	<div class="header-overlay"></div>
 	<div class="header-content">
-		<h1>Inspiration Integrity</h1>
+		<h1>Inspiration and Integrity</h1>
 		<p>
 			Installing an atmosphere of self-descovery,
 			resourcefulness and compassion.
@@ -28,31 +28,31 @@
 
 
 @section('grid-image-1')
-	<div class="container-fluid my-auto mb-5">
-		<div class="row padding">
-		<div class="mid-section col-md-4">
-		<img src="{{asset('img/img-3.png')}}" alt="image 3" />
-			<div class="content">
-				<p>GRADE NURSERY 1 - 5</p>
-				<h2>Lower School</h2>
+		<div class="row">		    		        
+			<div class="col-md-4 col-sm-4 col-xs-12 mid-section">
+                <img src="{{asset('img/img-3.png')}}" alt="image 3" />
+                <div class="content">
+				    <p>GRADE NURSERY 1 - 5</p>
+				    <h2>Lower School</h2>
+                </div>
 			</div>			
-		</div>
-		<div class="mid-section col-md-4">
-		<img src="{{asset('img/img-2.png')}}" alt="image 2" />
-			<div class="content">
-				<p>GRADE 6 - 8</p>
+		    		       
+			<div class="col-md-4 col-sm-4 col-xs-12 mid-section">
+                <img src="{{asset('img/img-2.png')}}" alt="image 2" />
+                <div class="content">
+                <p>GRADE 6 - 8</p>
 				<h2>Mid School </h2>
+                </div>				
 			</div>			
-		</div>
-		<div class="mid-section col-md-4">
-		<img src="{{asset('img/img-1.png')}}" alt="image 1" />
-			<div class="content">
-				<p>GRADE 9 - 12</p>
+		    
+			<div class="col-md-4 col-sm-4 col-xs-12 mid-section">
+            <img src="{{asset('img/img-1.png')}}" alt="image 1" />
+                <div class="content">
+                 <p>GRADE 9 - 12</p>
 				<h2>High School </h2>	
-			</div>			
+                </div>				
+			</div>		 
 		</div>
-		</div>
-	</div>
 @endsection
 
 @section('tour')
@@ -61,21 +61,22 @@
 			<div class="col-md-6">
 				<img src="{{ asset('img/school-img.png')}}" alt="school building" >
 			</div>
-			<div class="col-md-6 tour mt-5">
-				<h4 class="mt-4 mb-4  tour-heading">INQUIRE IN PERSON</h4>
+			<div class="col-md-6  col-sm-6 col-xs-12 tour mt-5">
+				<h4 class="mt-4 mb-4  tour-heading"><a href="blog">INQUIRE IN PERSON</a></h4>
 				<h4 class="tour-content">Rooted In The Past, Preparing Students For The Future</h4>
 				<h6>Schedule a tour now</h6>
 					<!--
 					 meant to make a form
 					-->
+
 				</div>			
 		</div>
 	</div>
 @endsection
 
 @section('philosophy')
-<div class="row">
-	<div class=" col-4 card shadow p-3 mb-5 bg-white rounded letter mt-5 mb-2">
+<div class="row philosophy">
+	<div class="col-md-4 col-sm-4 col-xs-12 card shadow bg-white rounded letter">
 		<div class="card-body">
 			<h4>LETTER FROM HEAD OF SCHOOL</h4>
 			<h6>Dr. mrs E.C. UZU</h6>
@@ -90,7 +91,7 @@
 			<h6 class="readmore"><a href="#">Read More</a></h6>
 		</div>
 	</div>
-	<div class="col-8 mt-2 philosophy">
+	<div class="col-md-8 col-sm-4 col-xs-12  mt-2 philosophy">
 		<img src="{{ asset('img/philosophy.png')}}" alt="philosophy" >
 		<div class="p-content">
 			<p>Our Educational Philosophy</p>
@@ -100,23 +101,23 @@
 @endsection
 
 @section('events')
-	<div class="events mt-2 mb-5">
+	<div id="blog" class="events mt-2 mb-5">
 		<div class="event-text mb-5">
 			<h3>Happening at Franej</h3>
 			<hr />
 			<!--<small>instagram : <a href="#">@franejeducationcenter</a></small> -->
 		</div>		
-		<div class="row">
-			<div class="event col-3">
+		<div class="grid-container">
+			<div class="event1 col-md-3 col-sm-3 col-xs-12">
 				<img src="{{ asset('img/f-img-1.png')}}">
 			</div>
-			<div class="event col-3">
+			<div class="event2 col-3 col-sm-3 col-xs-12">
 				<img src="{{ asset('img/f-img-2.png')}}">
 			</div>
-			<div class="event col-3">
+			<div class="event3 col-3 col-sm-3 col-xs-12">
 				<img src="{{ asset('img/f-img-3.png')}}">
 			</div>
-			<div class="event col-3">
+			<div class="event4 col-3 col-sm-3 col-xs-12">
 				<img src="{{ asset('img/f-img-4.png')}}">
 			</div>
 		</div>
@@ -125,10 +126,10 @@
 
 @section('blog')
 	<div class="row school-blog mt-2 mb-2 ml-0 mr-0">
-		<div class="col-6">
+		<div class="col-md-6 col-sm-6 col-xs-12">
 			<img src="{{ asset('img/chess.png')}}">
 		</div>
-		<div class="blog col-6 mt-5">
+		<div class="blog col-md-6 col-sm-6 col-xs-12  mt-5">
 			<h3>Franej Blog</h3>
 			<hr class="blog-header" />
 			<div class="mb-3 date">{{ now()-> format('M d, Y')}} </div>
@@ -182,33 +183,33 @@
 			<hr class="blog-header" />
 		</div>
 	</div>
-		<div class="row event-blog ml-5">
-			<div class="col-md-3 card shadow p-3 mb-5 bg-white rounded ml-5">
+		<div class="row event-blog">
+			<div class="col-md-3 col-sm-3 col-xs-3 card shadow p-3 mb-2 bg-white rounded">
 				<div class="card-body">
 					<h4>Baltimore Alumni Dinner</h4>
-					<div class="row event-view">
-						<div class="col-md-6 date">{{ now()-> format('M d, Y')}} </div>
-						<div class="col-md-6 more"><a href="#">LEARN MORE </a></div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6 date">{{ now()-> format('M d, Y')}} </div>
+						<div class="col-md-6 col-sm-6 col-xs-6 more"><a href="#">LEARN MORE </a></div>
 					</div>
 				</div>
 			</div>
 		
-			<div class="col-md-3 card shadow p-3 mb-5 bg-white rounded ml-5">
+			<div class="col-md-3 col-sm-3 col-xs-3 card shadow p-3 mb-2 bg-white rounded">
 				<div class="card-body">
 					<h4>Austin Alumni Dinner</h4>
-					<div class="row event-view">
-						<div class="col-md-6 date">{{ now()-> format('M d, Y')}} </div>
-						<div class="col-md-6 more"><a href="#">LEARN MORE </a></div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6 date">{{ now()-> format('M d, Y')}} </div>
+						<div class="col-md-6 col-sm-6 col-xs-6 more"><a href="#">LEARN MORE </a></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3 card shadow p-3 mb-5 bg-white rounded ml-5">
+			<div class="col-md-3 col-sm-3 col-xs-3 card shadow p-3 mb-2 bg-white rounded">
 				<div class="card-body">
 					<h4>Moses Brown Summer Camps Open House</h4>
-					<div class="row event-view">
-						<div class="col-md-6 date">{{ now()-> format('M d, Y')}} </div>
-						<div class="col-md-6 more"><a href="#">LEARN MORE </a></div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6 date">{{ now()-> format('M d, Y')}} </div>
+						<div class="col-md-6 col-sm-6 col-xs-6 more"><a href="#">LEARN MORE </a></div>
 					</div>
 				</div>
 			</div>

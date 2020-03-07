@@ -1,7 +1,6 @@
 {
 	box-sizing: border-box;
 }
-
 body{
 	margin: 0;
     padding:0;
@@ -9,14 +8,15 @@ body{
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #333;
-	overflow-x:hidden;
 }
 
 .v-header{
-	height: 100vh;
+	height: 100%;
+    width:100%;
 	display: flex;
 	align-items: center;
 	color: #fff;
+    padding-bottom:23%;
 }
 
 .fullscreen-video-wrap{
@@ -29,12 +29,12 @@ body{
 
 .fullscreen-video-wrap video{
 	width: 100%;
-	max-height: 100%;
+	height: auto;    
 }
 
 .header-overlay{
-	height: 100vh;
-	width: 100vw;
+	height: 119%;
+	width: 100%;
 	position: absolute;
 	top:10%;
 	left:0;
@@ -44,6 +44,7 @@ body{
 }
 
 .header-content{
+    margin-top:20%;
 	z-index: 2;
 }
 
@@ -62,3 +63,36 @@ body{
     text-align:left;
     margin-left:10%;
 }
+
+@media only screen and (max-width:400px){
+    .v-header{
+        padding-bottom:15px;
+    }
+    .header-overlay{
+	    height: 33%;
+	    width: 100%;
+	    position: absolute;
+	    margin-top:15%;
+	    left:0;
+	    background: #225470;
+	    z-index: 1;
+	    opacity: 0.75;      
+    }
+    .header-content{
+        margin-top:10%;
+    }
+    .header-content p{
+        font-size:15px;
+    }
+    .header-content h1{
+	font-size: 20px;
+	margin-bottom: 0;
+    }
+    .fullscreen-video-wrap{
+	    position: absolute;
+	    margin-top: 15%;
+	    left:0;
+	    width: 100%;
+	    height: auto;
+    }
+  }

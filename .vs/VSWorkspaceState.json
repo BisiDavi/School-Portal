@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
     "\\public",
     "\\public\\css",
-    "\\resources",
-    "\\resources\\views"
+    "\\resources\\views\\admin\\layout",
+    "\\resources\\views\\admin\\profile"
   ],
-  "SelectedNode": "\\public\\css",
+  "SelectedNode": "\\public\\css\\home.css",
   "PreviewInSolutionExplorer": false
 }

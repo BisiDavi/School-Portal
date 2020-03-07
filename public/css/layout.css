@@ -37,8 +37,9 @@ footer a:hover{
 }
 
 footer .blog-header{	
-	margin-left: 2%;
+	margin-left: 5%;
 	border: 1px solid gray;
+    width:50%;
 }
 
 .blog-events a{
@@ -58,7 +59,7 @@ footer .blog-header{
 }
 
 .left a img{
-	max-width: 20%;
+	max-width: 30%;
 	float: right;
 	padding: 0;
 	margin:0;
@@ -71,4 +72,41 @@ footer .blog-header{
 
 #navbarNav .schedule{
     background-color: green;
+}
+
+@media only screen and (max-width:400px){
+  .community  .img-text{
+        top:0%;
+        text-align:center;
+        margin-top:0%;
+    }
+  .community  .img-text p{
+        font-size: 20px;
+    }
+  .community  .img-text .btn{ 
+       margin-top:-30%;
+       border-radius: 7px;
+    }
+    .left{
+        justify-content:center;
+        margin-left:5%;
+    }
+  .left a img{
+        max-width: 100%;
+        float: right;
+        padding: 0;
+        margin-left: 2%;
+        margin:0;
+    }
+    .copyright p{
+        justify-content:center;
+        margin-left:0%;
+    }
+
+    .blog-events .col-sm-2{
+        width: 0%;
+        padding-top: 0%;
+        padding-left:10%;
+    }
+
 }
