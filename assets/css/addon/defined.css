@@ -1,0 +1,54 @@
+#header {
+  box-shadow: 0 8px 6px -6px #337ab7;
+}
+
+.header {
+  background: black;
+  box-shadow: 0 8px 6px -6px #337ab7;
+  color: #d8eeee;
+  padding: 1% 0% 1% 0%;
+}
+
+header#login-header {
+  background: black;
+  box-shadow: 0 8px 6px -6px #337ab7;
+  margin-bottom: 2%;
+}
+
+.side_nav {
+  list-style: none;
+}
+
+.logout a {
+  color: #d8eeee;
+}
+
+.logout a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#result_page {
+  border: 1px solid #ddd;
+  padding: 1% 2% 0 2%;
+  font-size: 16px;
+}
+
+#upload {
+  font-size: 16px;
+  color: #fff;
+  background: #337ab7;
+  font-weight: bold;
+}
+
+#position {
+  font-size: 16px;
+}
+
+#signature {
+  width: 25%;
+}
+
+.grade {
+  font-size: 14px;
+}
