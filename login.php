@@ -67,6 +67,7 @@ if (isset($_POST['to_home_btn'])) {
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 	<meta name='description" content="student registration' />
 	<link type='text/css' rel='stylesheet' href='assets/css/addon/bootstrap.css' />
+	<link rel="stylesheet" href="assets/css/addon/bootstrap.min.css">
 	<link type='text/css' rel='stylesheet' href='css/font-awesome.css' />
 	<link rel="shortcut icon" href="assets/image/icon.png">
 	<link rel='stylesheet' href='assets/css/addon/defined.css' />

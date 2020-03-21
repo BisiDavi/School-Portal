@@ -196,16 +196,14 @@ if(isset($_POST['profile_update_btn'])){
 		<meta charset='utf-8' />
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 		<meta name='description" content="student registration' />
-		<link type='text/css' rel='stylesheet' href='css/bootstrap.css' />
-		<link type='text/css' rel='stylesheet' href='css/font-awesome.css' />
-		<link type='text/css' rel='stylesheet' href='css/blink.css' />
-        <link rel="shortcut icon" href="img/icon.png">
-		<link rel='stylesheet' href='css/defined.css' />
-		<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
-		<script type='text/javascript' src='js/blink.js'></script>
-		<script src='js/bootstrap.js'></script>
+		<link type='text/css' rel='stylesheet' href='assets/css/addon/bootstrap.css' />
+		<link type='text/css' rel='stylesheet' href='assets/css/addon/blink.css' />
+    <link rel="shortcut icon" href="assets/image/icon.png">
+		<link rel='stylesheet' href='assets/css/addon/defined.css' />
+		<script type='text/javascript' src='assets/js/jquery-1.11.3.min.js'></script>
+		<script type='text/javascript' src='assets/js/blink.js'></script>
+		<script src='assets/js/bootstrap.js'></script>
 		<style type="text/css">
-
 			@media print
 			{
 			.noprint {display:none;}
@@ -215,7 +213,6 @@ if(isset($_POST['profile_update_btn'])){
 			{
 			...
 			}
-
 		</style>
 		<script type="text/javascript">
 		window.onload = initClock;
@@ -255,10 +252,11 @@ if(isset($_POST['profile_update_btn'])){
 									echo"<p class='text-center'><b><marquee>{$school_title}</marquee></b></p>";
 								}
 							}else{
-								echo"<p class='text-center'><b><marquee>SPK POWERED BY TOXASWIFT</marquee></b></p>";
+								echo"<p class='text-center'><b><marquee>PORTAL POWERED BY HARVOXX-HUB</marquee></b></p>";
 							}
 						?>
-						<h2 class='text-center'><span class='glyphicon glyphicon-education'></span> SCHOOL PORTAL KIT</h2>
+						<h2 class='text-center'><span class='glyphicon glyphicon-education'></span> 
+							Franej Educational Centre Portal</h2>
 						<h4 class='text-center'>Welcome
 							<?php
 								echo ucfirst($msg_title) ." " .$msg_fullname;
@@ -2512,7 +2510,7 @@ if(isset($_POST['profile_update_btn'])){
 		</div>
 		<footer>
 			<div class='container'>
-				<p class='text-center' style='color: #666;'>Copyright &#169; <?php echo $year ?> // Product of <a href='http://www.toxaswift.com'>Toxaswift Inc.</a> // <span class='glyphicon glyphicon-envelope'></span> info@toxaswift.com</p>
+				<p class='text-center' style='color: #666;'>Copyright &#169; <?php echo $year ?> // Product of <a href='#'>Harvoxx Hub.</a> // <span class='glyphicon glyphicon-envelope'></span> info@htt.com.ng</p>
 			</div>
 		</footer>
 

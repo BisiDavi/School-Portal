@@ -14,7 +14,7 @@
 	<link href="assets/css/addon/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/addon/delily.css" />
 	<link rel="stylesheet" href="assets/css/addon/defined.css" />
-	<link href="assets/css/bootstrap.css" rel="stylesheet" />
+	<link href="assets/css/addon/bootstrap.css" rel="stylesheet" />
 
 	<!-- main css files -->
 	<link href="assets/css/video.css" rel="stylesheet">

@@ -119,14 +119,14 @@
 		<meta charset='utf-8' />
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 		<meta name='description" content="student registration' />
-		<link type='text/css' rel='stylesheet' href='css/bootstrap.css' />
-		<link type='text/css' rel='stylesheet' href='css/font-awesome.css' />
-		<link type='text/css' rel='stylesheet' href='css/blink.css' />
-        <link rel="shortcut icon" href="img/icon.png">
-		<link rel='stylesheet' href='css/defined.css' />
-		<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
-		<script src='js/bootstrap.js'></script>
-		<script src='js/blink.js'></script>
+		<link type='text/css' rel='stylesheet' href='assets/css/addon/bootstrap.css' />
+		<link type='text/css' rel='stylesheet' href='assets/css/addon/font-awesome.css' />
+		<link type='text/css' rel='stylesheet' href='assets/css/addon/blink.css' />
+        <link rel="shortcut icon" href="assets/image/icon.png">
+		<link rel='stylesheet' href='assets/css/addon/defined.css' />
+		<script type='text/javascript' src='assets/js/jquery-1.11.3.min.js'></script>
+		<script src='assets/js/bootstrap.js'></script>
+		<script src='assets/js/blink.js'></script>
 		<style type="text/css">
 
 			@media print
